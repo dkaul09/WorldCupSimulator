@@ -1,0 +1,34 @@
+32
+Netherlands 1.182 0.716 
+Senegal 0.858 1.127
+Ecuador 0.583 0.979
+Qatar 0.226 1.767  
+England 0.952 0.696 
+USA 0.695 1.419
+Iran 0.440 1.127
+Wales 0.423 0.947
+Argentina 1.170 0.869
+Poland 0.786 1.096
+Mexico 0.665 1.339 
+Saudi-Arabia 0.374 2.193
+France 1.262 0.882
+Australia 0.518 1.541 
+Tunisia 0.474 1.204
+Denmark 0.867 1.003
+Japan 0.643 1.050
+Spain 1.092 0.848
+Germany 1.333 0.923  
+Costa-Rica 0.603 1.618
+Morocco 0.559 0.934
+Croatia 0.971 0.833
+Belgium 0.916 1.099
+Canada 0.226 1.515
+Brazil 1.408 0.718
+Switzerland 0.863 1.416
+Cameroon 0.458 1.643
+Serbia 0.883 1.201
+Portugal 1.180 0.887
+South-Korea 0.591 1.788
+Uruguay 0.970 1.024
+Ghana 0.650 1.394
+
