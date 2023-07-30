@@ -13,9 +13,21 @@ Inside the Excel sheet, we have a summary of each of the 32 teams performances i
 
 ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/23a4d63f-dd48-455a-9fe8-b7e48669eb33)
 
-Above are the statistics of the German National Team. The ATTK Rating determines how strong their attack is. The higher the number, the better it is. However, it works the opposite for the DEF rating. The lower the Defensive rating, the better. Essentially, the ATTK Rating and DEF Rating respresent how many goals they score and concede each game respectively. 
+Above are the statistics of the German National Team. The ATTK Rating determines how strong their attack is. The higher the number, the better it is. However, it works the opposite for the DEF rating. The lower the Defensive rating, the better. 
 
 _Calculating the ATTK Rating and Defense Rating_
+
+I calculated the ATTK Rating by dividing the goals scored by Germany by their matches played. I then further divide that value by the average value of goals scored by each of the 32 teams. I then do the same with the DEFF Rating, but instead of using goals scored, I use goals conceded. 
+
+_Fine tuning the ratings_
+
+To make the model as accurate and realistic as possible, I have fine tuned some of the teams' attacking and defensive ratings using the current FIFA Men's Teams Rankings. Let's look at Germany again.
+
+Germany are currently 15th in Men's Rankings and it could be assumed that they are not good as they were in 2014 (given that in the last 2 World Cups they were not able to advance to the knockout stages). Hence, with teams outside the Top 10, I add a "penalty" to the ATTK and DEF ratings of the teams.
+
+If the team's rankings are in the range of 11th - 20th, I add a 10% penalty, making reducing a team's ATTK rating by 5% and increasing their team's DEF Rating by 5%. 
+
+If the team's rankings are in the range of 21st - 30th, I add a 20% penalty, making reducing a team's ATTK rating by 10% and increasing their team's DEF Rating by 10%, and so on. 
 
 
 **How to run the install project**
@@ -47,11 +59,8 @@ Then use ./tourny teams.txt and then program will start.
 
 5. After 3 match days are done, then the knockout round will commence. From the 32, 16 will advance to the knockout stages. From there, 8 will advance and soon till 1 team remains from each bracket, setting up the final.
 
-
-
 ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/eb11bc21-c510-4f53-a524-35b9537ff066)
 
-   
 6. In the event, that the goals scored by both teams in the knockout stages are the same, the game will go to penalties, and there will 50/50 chance of both teams to go through in this cases. Hence, it is randomly decided who advances on penalties.
 
 
@@ -59,21 +68,11 @@ Then use ./tourny teams.txt and then program will start.
 
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/408852c3-45ad-41a6-bf07-ad9267bd92bb)
 
-
-
 In our simulation, Argentina wins the World Cup (just like 2022!).
-
-
-
-
-
-
-
 
 **Some of the challenges I faced**
 
-One of the challenges I faced was trying to find an approriate model 
-
+One of the challenges I faced when working on this project was finding an appropriate method to model the data on. 
 
 
 **What features I would include next time if I return to this project and improvements **
