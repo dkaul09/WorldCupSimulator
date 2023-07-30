@@ -17,11 +17,11 @@ Inside the Excel sheet, we have a summary of each of the 32 teams performances i
 
 Above are the statistics of the German National Team. The ATTK Rating determines how strong their attack is. The higher the number, the better it is. However, it works the opposite for the DEF rating. The lower the Defensive rating, the better. 
 
-_Calculating the ATTK Rating and Defense Rating_
+<ins>_Calculating the ATTK Rating and Defense Rating_</ins>
 
 I calculated the ATTK Rating by dividing the goals scored by Germany by their matches played. I then further divide that value by the average value of goals scored by each of the 32 teams. I then do the same with the DEFF Rating, but instead of using goals scored, I use goals conceded. 
 
-_Fine tuning the ratings_
+<ins>_Fine tuning the ratings_</ins>
 
 To make the model as accurate and realistic as possible, I have fine tuned some of the teams' attacking and defensive ratings using the current FIFA Men's Teams Rankings. Let's look at Germany again.
 
