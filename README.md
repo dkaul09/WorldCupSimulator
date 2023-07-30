@@ -1,6 +1,6 @@
 # WorldCupSimulator
 
-**Project Description**
+<ins>**Project Description**</ins>
 
 This C++ powered World Cup Simulator has been modelled on using mathematical models such as the Poission Distribution and football (soccer) statistics such as expected goals to predict how maay teams can score against their opponents. 
 
@@ -9,7 +9,7 @@ This simulator consists of the 32 teams that took part in the FIFA Men's World C
 I really enjoyed building this project as I am a huge football (soccer) fan and I was always curious about how betting companies or sport studios were able to predict matches using data. 
 
 
-**What is in the Excel Sheet and how has the data been calculated?** 
+<ins>**What is in the Excel Sheet and how has the data been calculated?** </ins>
 
 Inside the Excel sheet, we have a summary of each of the 32 teams performances in the World Cup since 1934 with information such as how many goals they have scored and conceded. Let us look at an example. All the information I added to this sheet was taken from: https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics 
 
@@ -34,7 +34,7 @@ If the team's rankings are in the range of 21st - 30th, I add a 20% penalty, mak
 Hence, Germany's ATTK Rating went from 1.403 (x 0.95) to 1.333 and their DEF Rating went from 0.879 (x 1.05) to 0.923.
 
 
-**How to run the project?**
+<ins>**How to run the project?**</ins>
 
 When you have downloaded the files, you can run this command to compile the code: 
 g++ main.cpp knockout_sim.cpp match_simulator.cpp team.cpp teamparser.cpp -o tourny
@@ -42,7 +42,7 @@ g++ main.cpp knockout_sim.cpp match_simulator.cpp team.cpp teamparser.cpp -o tou
 
 Then use ./tourny teams.txt and then program will start. 
 
-**How the project works?**
+<ins>**How the project works?**</ins>
 
 1. First the program will parse in the 32 teams, their attacking rating and defensive rating, which can also be found on the Excel spreadsheet.
 2. The user will then be prompted to choose whether they want randomized groups or fixed groups from the 2022 World Cup. I will be choosing the fixed groups in this example.
@@ -75,13 +75,13 @@ Then use ./tourny teams.txt and then program will start.
 
 In our simulation, Argentina wins the World Cup (just like 2022!).
 
-**Some of the challenges I faced and how I overcame them**
+<ins>**Some of the challenges I faced and how I overcame them**</ins>
 
 One of the challenges I faced when working on this project was finding an appropriate method to model the data on. I did not know where to begin at all and so I spent days researching all the different methods to calculate goals, from the ELO Rating System to the Poission Distribution (which is the model I ended up using at the end). 
 
 However, at the end, I came across this video (https://www.youtube.com/watch?v=vg5BxFCdYnE&t=840s). Inspired by the video, I added the model mentioned in the video in my project, but added an extra feature of fine-tuning the values calculated using the Men's Rankings.
 
-**What features I would include next time if I return to this project and any possible improvements?**
+<ins>**What features I would include next time if I return to this project and any possible improvements?**</ins>
 
 If I come back to this project, I would add features such as showing the goal scorer of each goal in the match alongside the minute scored. In addition, I would also add dialogue to describe the events of a match, such as yellow cards, penalties, etc, to make it more the simulation a bit more eventful and entertaining.
 
