@@ -9,7 +9,7 @@ This simulator consists of the 32 teams that took part in the FIFA Men's World C
 
 **What is in the Excel Sheet and how has the data been calculated?** 
 
-Inside the Excel sheet, we have a summary of each of the 32 teams performances in the World Cup since 1934 with information such as how many goals they have scored and conceded. Let us look at an example. 
+Inside the Excel sheet, we have a summary of each of the 32 teams performances in the World Cup since 1934 with information such as how many goals they have scored and conceded. Let us look at an example. All the information I added to this sheet was taken from: https://en.wikipedia.org/wiki/FIFA_World_Cup_records_and_statistics 
 
 ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/23a4d63f-dd48-455a-9fe8-b7e48669eb33)
 
@@ -70,9 +70,12 @@ Then use ./tourny teams.txt and then program will start.
 
 In our simulation, Argentina wins the World Cup (just like 2022!).
 
-**Some of the challenges I faced**
+**Some of the challenges I faced and how I overcame them**
 
-One of the challenges I faced when working on this project was finding an appropriate method to model the data on. 
+One of the challenges I faced when working on this project was finding an appropriate method to model the data on. I did not know where to begin at all and so I spent days researching all the different methods to calculate goals, from the ELO Rating System to the Poission Distribution (which is the model I ended up using at the end). 
 
+However, at the end, I came across this video (https://www.youtube.com/watch?v=vg5BxFCdYnE&t=840s). Inspired by the video, I added the model mentioned in the video in my project, but added an extra feature of fine-tuning the values calculated using the Men's Rankings.
 
-**What features I would include next time if I return to this project and improvements **
+**What features I would include next time if I return to this project and possible improvements**
+
+If I come back to this project, I would add features such as showing the goal scorer of each goal in the match alongside the minute scored. In addition, I would also add dialogue to describe the events of a match, such as yellow cards, penalties, etc, to make it more the simulation a bit more eventful.
