@@ -36,7 +36,10 @@ Then use ./tourny teams.txt and then program will start.
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/78f1b4ae-163c-4376-8d56-b7989e663977)
 
 5. After 3 match days are done, then the knockout round will commence. From the 32, 16 will advance to the knockout stages. From there, 8 will advance and soon till 1 team remains from each bracket, setting up the final.
-   ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/eb11bc21-c510-4f53-a524-35b9537ff066)
+
+
+
+![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/eb11bc21-c510-4f53-a524-35b9537ff066)
 
    
 6. In the event, that the goals scored by both teams in the knockout stages are the same, the game will go to penalties, and there will 50/50 chance of both teams to go through in this cases. Hence, it is randomly decided who advances on penalties.
