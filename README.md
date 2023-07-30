@@ -19,7 +19,11 @@ Then use ./tourny teams.txt and then program will start.
 
 1. First the program will parse in the 32 teams, their attacking rating and defensive rating, which can also be found on the Excel spreadsheet.
 2. The user will then be prompted to choose whether they want randomized groups or fixed groups from the 2022 World Cup. I will be choosing the fixed groups in this example.
+
+
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/f0ae262a-68bb-4ae6-a4a3-8b3e5e8d7c5b)
+
+   
 3.  The user will then be prompted to hit enter for each match to run.
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/8fd1746e-1b79-4196-aa50-6baab68098e0)
 
