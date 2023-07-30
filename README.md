@@ -85,4 +85,8 @@ However, at the end, I came across this video (https://www.youtube.com/watch?v=v
 
 If I come back to this project, I would add features such as showing the goal scorer of each goal in the match alongside the minute scored. In addition, I would also add dialogue to describe the events of a match, such as yellow cards, penalties, etc, to make it more the simulation a bit more eventful and entertaining.
 
-In addition, to improve the accuracy of the model, I may consider all football matches that all 32 teams have played and their performances, while taking into account whether they have played at home, away, or neutral event at those matches since the venue location is very instrumental in football.
+In addition, to improve the accuracy of the model, I may consider all football matches that all 32 teams have played and their performances, while taking into account whether they have played at home, away, or neutral event at those matches since the venue location is very instrumental in football. 
+
+One potential issue with my model is that at certain occassions it may overestimate how strong a team is and hence I believe adding more parameters to consider will help resolve this issue. 
+
+
