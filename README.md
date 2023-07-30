@@ -23,25 +23,36 @@ Then use ./tourny teams.txt and then program will start.
 3.  The user will then be prompted to hit enter for each match to run.
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/8fd1746e-1b79-4196-aa50-6baab68098e0)
 
- In the above example, eX represents a team's expected goals. Netherlands were favoured to win this matchup by a goal as they were expected to score 2 goals and Senegal were expected to score 1. However, 
- the match ended in a draw. 
+ In the above example, eX represents a team's expected goals. Netherlands were favoured to win this matchup by a goal as they were expected to score 2 goals and Senegal were expected to score 1. 
+ However, the match ended in a draw. 
 
  In order to model the goals, what I did was apply the Poission Distribution, with the team's expected goals (eX) as a mean, in order to determine how many goals a team would score against the other. 
 
-5. Below is a points table that is shown after each matchday after teams have faced each other statistics like goals scored and points.
+4. Below is a points table that is shown after each matchday after teams have faced each other statistics like goals scored and points.
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/78f1b4ae-163c-4376-8d56-b7989e663977)
 
-6. After 3 match days are done, then the knockout round will commence. From the 32, 16 will advance to the knockout stages. From there, 8 will advance and soon till 1 team remains from each bracket, setting up the final.
+5. After 3 match days are done, then the knockout round will commence. From the 32, 16 will advance to the knockout stages. From there, 8 will advance and soon till 1 team remains from each bracket, setting up the final.
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/eb11bc21-c510-4f53-a524-35b9537ff066)
-7. In the event, that the goals scored by both teams in the knockout stages are the same, the game will go to penalties, and there will 50/50 chance of both teams to go through in this cases. Hence, it is randomly decided who advances on penalties.
-8. The Final
+
+   
+6. In the event, that the goals scored by both teams in the knockout stages are the same, the game will go to penalties, and there will 50/50 chance of both teams to go through in this cases. Hence, it is randomly decided who advances on penalties.
+
+
+7. The Final
    ![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/408852c3-45ad-41a6-bf07-ad9267bd92bb)
 
    In our simulation, Argentina wins the World Cup (just like 2022!).
 
 
 
-**What I struggled with **
+
+
+
+
+
+**Some of the challenges I faced**
+
+One of the challenges I faced was trying to find an approriate model 
 
 
 
