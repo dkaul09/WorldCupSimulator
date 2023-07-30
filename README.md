@@ -4,7 +4,9 @@
 
 This C++ powered World Cup Simulator has been modelled on using mathematical models such as the Poission Distribution and football (soccer) statistics such as expected goals to predict how maay teams can score against their opponents. 
 
-This simulator consists of the 32 teams that took part in the FIFA Men's World Cup 2022. In addition, I have also attached an excel spreadsheet that summarizes each of the 32 teams' attacking and defensvie strength, which is used to calculate the xG of a team against their opponent. I will later on explain how I calculated the strengths and adjusted them to make the simulations more accurate. 
+This simulator consists of the 32 teams that took part in the FIFA Men's World Cup 2022. In addition, I have also attached an excel spreadsheet that summarizes each of the 32 teams' attacking and defensvie strength, which is used to calculate the xG of a team against their opponent. I will later on explain how I calculated the strengths and adjusted them to make the simulations more accurate.
+
+I really enjoyed building this project as I am a huge football (soccer) fan and I was always curious about how betting companies or sport studios were able to predict matches using data. 
 
 
 **What is in the Excel Sheet and how has the data been calculated?** 
@@ -29,15 +31,18 @@ If the team's rankings are in the range of 11th - 20th, I add a 10% penalty, mak
 
 If the team's rankings are in the range of 21st - 30th, I add a 20% penalty, making reducing a team's ATTK rating by 10% and increasing their team's DEF Rating by 10%, and so on. 
 
+Hence, Germany's ATTK Rating went from 1.403 (x 0.95) to 1.333 and their DEF Rating went from 0.879 (x 1.05) to 0.923.
 
-**How to run the install project**
 
-When you have downloaded the files, you can run this command to compile the code: g++ knockout_sim.cpp main.cpp ....
+**How to run the project?**
+
+When you have downloaded the files, you can run this command to compile the code: 
+g++ main.cpp knockout_sim.cpp match_simulator.cpp team.cpp teamparser.cpp -o tourny
 
 
 Then use ./tourny teams.txt and then program will start. 
 
-**How the project works**
+**How the project works?**
 
 1. First the program will parse in the 32 teams, their attacking rating and defensive rating, which can also be found on the Excel spreadsheet.
 2. The user will then be prompted to choose whether they want randomized groups or fixed groups from the 2022 World Cup. I will be choosing the fixed groups in this example.
@@ -76,6 +81,8 @@ One of the challenges I faced when working on this project was finding an approp
 
 However, at the end, I came across this video (https://www.youtube.com/watch?v=vg5BxFCdYnE&t=840s). Inspired by the video, I added the model mentioned in the video in my project, but added an extra feature of fine-tuning the values calculated using the Men's Rankings.
 
-**What features I would include next time if I return to this project and possible improvements**
+**What features I would include next time if I return to this project and any possible improvements?**
 
 If I come back to this project, I would add features such as showing the goal scorer of each goal in the match alongside the minute scored. In addition, I would also add dialogue to describe the events of a match, such as yellow cards, penalties, etc, to make it more the simulation a bit more eventful and entertaining.
+
+In addition, to improve the accuracy of the model, I may consider all football matches that all 32 teams have played and their performances, while taking into account whether they have played at home, away, or neutral event at those matches since the venue location is very instrumental in football.
