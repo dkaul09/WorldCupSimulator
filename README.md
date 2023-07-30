@@ -8,8 +8,14 @@ This simulator consists of the 32 teams that took part in the FIFA Men's World C
 
 
 **What is in the Excel Sheet and how has the data been calculated?** 
-Inside the Excel sheet,
 
+Inside the Excel sheet, we have a summary of each of the 32 teams performances in the World Cup since 1934 with information such as how many goals they have scored and conceded. Let us look at an example. 
+
+![image](https://github.com/dkaul09/WorldCupSimulator/assets/111927365/23a4d63f-dd48-455a-9fe8-b7e48669eb33)
+
+Above are the statistics of the German National Team. The ATTK Rating determines how strong their attack is. The higher the number, the better it is. However, it works the opposite for the DEF rating. The lower the Defensive rating, the better. Essentially, the ATTK Rating and DEF Rating respresent how many goals they score and concede each game respectively. 
+
+_Calculating the ATTK Rating and Defense Rating_
 
 
 **How to run the install project**
@@ -55,7 +61,7 @@ Then use ./tourny teams.txt and then program will start.
 
 
 
-   In our simulation, Argentina wins the World Cup (just like 2022!).
+In our simulation, Argentina wins the World Cup (just like 2022!).
 
 
 
@@ -70,4 +76,4 @@ One of the challenges I faced was trying to find an approriate model
 
 
 
-**What features I would include next time if I return to this project **
+**What features I would include next time if I return to this project and improvements **
